@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact_me</title>
+    <script src="https://kit.fontawesome.com/e6362ec0c3.js" crossorigin="anonymous"></script>
+    <style>
+
+        footer{
+            background-color: rgb(86, 86, 86);
+            width: 100%;
+            height: 500px;
+        }
+        body{
+            background-color: burlywood;
+        }
+        #f1{
+            margin-left: 900px;
+            margin-right: 900px;
+            padding-left: 150px;
+            border-radius: 50px;
+            border-color: chartreuse;
+            height: 800px;
+            border-width: 30%;
+            font-size: 40px;
+            margin-top: 100px;
+        }
+        #btn{
+            margin-left: 1210px;
+            border: 5px;
+            border-radius: 10px;
+            margin-top: 30px;
+        }
+
+        #btn:hover{
+            color: red;
+            background-color: burlywood;
+        }
+        li{
+            list-style: none;
+            display: inline-block;
+            font-size: 30px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        #abtfoot{
+            padding-top: 130px;
+            padding-left: 850px;
+        }
+        input::placeholder{
+            font-size: 15px;
+        }
+    </style>
+</head>
+<body>
+    <form action="Thankyou.html">
+    <fieldset id="f1">
+        <legend style="align-self: center;"> <span style=" color: lightgoldenrodyellow;">Personal Details</span> </legend>
+        <label for="First">First Name</label>
+        <input type="text" id="First"  pattern="[a-zA-Z]{3,8}" required placeholder="Enter your name" name="Firstname" style=" height: 40px;">
+        <br><br>
+        <label for="Last"> Last Name</label>
+        <input type="text" id="Last" required pattern="[a-zA-Z]{3,8}" placeholder="Enter your Last name" name="Lastname" style=" height: 40px;">
+        <br><br>
+        <label for="email">Email</label>
+        <input type="email" id="email" required placeholder="Email" name="email" style=" height: 30px;">
+        <br><br>
+        <label for="contact">Ph No</label>
+        <input type="number" pattern="[6-9]{1}[0-9]{9}" id="contact" required placeholder="Enter your number" name="number" style=" height: 40px;" >
+        <br><br>
+        <label for="dob">DOB</label>
+        <input type="date"  id="contact" required font placeholder="Enter your Dob" name="dob" style=" height: 40px;" >
+        <br><br>
+        <label for="Qualification">Qualification</label>
+        <input  list="lists" id="Qualification" required placeholder="Enter your Qualification" name="num" style=" height: 40px;" >
+        <datalist id="lists">
+            <option>B.E/B.Tech</option>
+            <option>BCA</option>
+            <option>MCA</option>
+            <option>M.E/M.Tech</option>
+            <option>Others</option>
+        </datalist>
+        <br><br>
+        <label for="Other">Others</label>
+        <input  type="text"  id="Other"  placeholder="Others" name="number" style=" height: 40px;" >
+        </fieldset>
+    <input type="submit" value="Submit" id="btn" style=" font-size: 20px; font-style:oblique;">
+</form>
+
+<footer>
+    <section id="abtfoot">
+
+        <h1 style=" padding-top:-250px; padding-left:800px; color: burlywood;">USEFUL LINKS</h1>
+   <a href="https://instagram.com/_s_u_p_p_y?igshid=NGVhN2U2NjQ0Yg==" style="padding-left: 90px; padding-right: 30px; font-size: 80px;"><i class="fa-brands fa-instagram fa-beat-fade" style="color: #eb000c;"><li></li></i></a>
+   <a href="https://www.linkedin.com/in/d-suprith-472bab246" style="padding-left: 30px; padding-right: 30px; font-size: 80px;"><i class="fa-brands fa-linkedin fa-beat-fade"><li></li></i></a>
+   <a href="https://github.com/suprith-0603" style="padding-left: 30px; padding-right: 30px; font-size: 80px;"><i class="fa-brands fa-github fa-beat-fade" style="color: #000000;"><li></li></i></a>
+   <a href="https://twitter.com/DharurSuprith" style="padding-left: 30px; padding-right: 30px; font-size: 80px;"> <i class="fa-brands fa-x-twitter fa-beat-fade" style="color: #161717;"><li></li></i></a>
+   <a href="https://twitter.com/DharurSuprith" style="padding-left: 30px; padding-right: 30px; font-size: 80px;"> <i class="fa-solid fa-envelope fa-beat-fade" style="color: #e82626;"><li></li></i></a>
+        <p style="font-size: 50px; padding-left: 40px;">Gmail-Suprithdharur6@gmail.com</p>
+        
+        <ol style="padding-left: 800px; margin-top: -250px; ">
+        <a href="ABOUT_ME.html" style="color:darkgrey;"><li>ABOUT_ME</li></a><br><br>
+           <a href="EDUCATION.html" style="color:darkgrey;"><li>EDUCATION</li></a><br><br>
+         <a href="PROJECTS.html" style="color:darkgrey;">   <li>PROJECTS</li></a><br><br>
+           <a href="CERTIFICATES.html" style="color:darkgrey;"> <li>CERTIFICATES</li></a><br><br>
+          <a href="Contact_me.html"  style="color:darkgrey;"><li>Contact_me</li></a>
+        </ol>
+        
+</section>
+</footer>
+
+
+</body>
+</html>
